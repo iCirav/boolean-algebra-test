@@ -1,4 +1,4 @@
-timestamp: "20220944201"
+timestamp: "20221046582"
 arch: ICE40
 fpga_info {
   fpga_id: "ice40hx1k-vq100"
@@ -8,6 +8,9 @@ fpga_info {
     type: "hx1k"
     package: "vq100"
   }
+}
+verbosity {
+  pnr: false
 }
 environment {
   platform_id: "windows-amd64"
@@ -23,10 +26,4 @@ apio_env_params {
   env_name: "default"
   board_id: "go-board"
   top_module: "top"
-}
-target {
-  lint {
-    nosynth: true
-    novlt: false
-  }
 }

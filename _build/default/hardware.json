@@ -23,7 +23,7 @@
         }
       },
       "cells": {
-        "$specify$569": {
+        "$specify$572": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -5315,9 +5315,8 @@
     },
     "SB_LUT4": {
       "attributes": {
-        "blackbox": "00000000000000000000000000000001",
         "abc9_lut": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
         "src": "C:\\Users\\jbauer\\APIO~1\\packages\\OSS-CA~1\\bin\\../share/yosys/ice40/cells_sim.v:177.1-225.10"
       },
       "parameter_default_values": {
@@ -9918,43 +9917,40 @@
         },
         "LED1": {
           "direction": "output",
-          "bits": [ "x" ]
+          "bits": [ 6 ]
         }
       },
       "cells": {
+        "LED1_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1111100010001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\jbauer\\APIO~1\\packages\\OSS-CA~1\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 5 ],
+            "I1": [ 4 ],
+            "I2": [ 3 ],
+            "I3": [ 2 ],
+            "O": [ 6 ]
+          }
+        }
       },
       "netnames": {
-        "A": {
-          "hide_name": 0,
-          "bits": [ "x" ],
-          "attributes": {
-            "src": "top.v:9.18-9.19"
-          }
-        },
-        "B": {
-          "hide_name": 0,
-          "bits": [ "x" ],
-          "attributes": {
-            "src": "top.v:9.22-9.23"
-          }
-        },
-        "C": {
-          "hide_name": 0,
-          "bits": [ "x" ],
-          "attributes": {
-            "src": "top.v:9.28-9.29"
-          }
-        },
-        "D": {
-          "hide_name": 0,
-          "bits": [ "x" ],
-          "attributes": {
-            "src": "top.v:9.32-9.33"
-          }
-        },
         "LED1": {
           "hide_name": 0,
-          "bits": [ "x" ],
+          "bits": [ 6 ],
           "attributes": {
             "src": "top.v:6.17-6.21"
           }
