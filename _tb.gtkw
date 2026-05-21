@@ -1,0 +1,15 @@
+[*] GTKWave display configuration for 'apio sim _tb.v'
+[*] THIS FILE WAS GENERATED AUTOMATICALLY BY APIO.
+[*] DO NOT EDIT IT MANUALLY!
+[*] To customize this file, run 'apio sim _tb.v'
+[*] and save the file from GTKWave.
+
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+
+[*]
+tb.A
+tb.B
+tb.C
+tb.D
+tb.F
+tb.i[31:0]
