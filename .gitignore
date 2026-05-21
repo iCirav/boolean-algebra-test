@@ -1,0 +1,32 @@
+# Build directories
+_build/
+build/
+out/
+
+# Yosys / nextpnr artifacts
+*.asc
+*.bin
+*.json
+*.rpt
+*.tim
+*.config
+*.blif
+*.edf
+
+# Simulation
+*.vcd
+*.fst
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Temporary
+*.log
+*.tmp
