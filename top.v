@@ -1,11 +1,11 @@
-module bool_expr (
-    input  wire A,
-    input  wire B,
-    input  wire D,
-    input  wire C,
-    output wire F,
+module top (
+    input  wire SW1,
+    input  wire SW2,
+    input  wire SW3,
+    input  wire SW4,
+    output wire LED1
 );
 
-    assign F = (A & B) | (C & D);
+  assign LED1 = (SW1 & SW2) | (SW3 & SW4);
 
 endmodule
